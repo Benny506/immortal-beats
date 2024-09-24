@@ -1,0 +1,178 @@
+.app-container{
+    background: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('./assets/images/bgs/bg1.jpg');
+}
+.app-header{
+    color: #FFF;
+    text-shadow: 0px 4.15px 21.898px rgba(0, 0, 0, 0.25);
+    font-family: "OpenSans";
+    font-size: 192.867px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;    
+}
+
+.search-input{
+    font-family: OpenSans;
+    font-size: 15px;
+    color: #000;
+    background-color: #F7F7F7;
+}
+
+.mp3-container{
+    height: 60vh;
+    overflow-y: scroll;
+    padding-right: 20px;
+    margin-bottom: 100px;
+}
+
+.handles-container{
+    height: 60vh;
+    padding-left: 20px;
+}
+
+
+@media (max-width:375px){
+    .handles-container{
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 140px;
+    }
+
+    .mp3-container{
+        height: 40vh;
+        overflow-y: scroll;
+        padding-right: 20px;
+        margin-bottom: 40px;
+    }
+}
+
+
+/* font families  */
+.open-sans{
+    font-family: OpenSans;
+}
+.suiGeneris{
+    font-family: SuiGeneris;
+}
+
+/* colors  */
+.txt-153627{
+    color: #153627
+}
+.txt-F1E4C5{
+    color: #F1E4C5
+}
+.txt-375B55{
+    color: #375B55
+}
+.txt-363928{
+    color: #363928;
+}
+
+
+/* back ground colors  */
+.bg-153627{
+    background-color: #153627;
+}
+.bg-F1E4C5{
+    background-color: #F1E4C5;
+}
+.bg-375B55{
+    background-color: #375B55;
+}
+.bg-363928{
+    background-color: #363928;
+}
+
+
+/* text sizes */
+.txt-10{
+    font-size: 10px;
+}
+.txt-11{
+    font-size: 11px;
+}
+.txt-12{
+    font-size: 12px;
+}
+.txt-13{
+    font-size: 13px;
+}
+.txt-14{
+    font-size: 14px;
+}
+.txt-15{
+    font-size: 15px;
+}
+.txt-16{
+    font-size: 16px;
+}
+.txt-17{
+    font-size: 17px;
+}
+.txt-18{
+    font-size: 18px;
+}
+.txt-19{
+    font-size: 19px;
+}
+.txt-20{
+    font-size: 20px;
+}
+.txt-21{
+    font-size: 21px;
+}
+.txt-22{
+    font-size: 22px;
+}
+.txt-23{
+    font-size: 23px;
+}
+.txt-24{
+    font-size: 24px;
+}
+.txt-25{
+    font-size: 25px;
+}
+.txt-26{
+    font-size: 26px;
+}
+.txt-27{
+    font-size: 27px;
+}
+.txt-28{
+    font-size: 28px;
+}
+.txt-29{
+    font-size: 29px;
+}
+.txt-30{
+    font-size: 30px;
+}
+
+
+
+/* font weights  */
+.fw-300{
+    font-weight: 300;
+}
+.fw-400{
+    font-weight: 400;
+}
+.fw-500{
+    font-weight: 500;
+}
+.fw-600{
+    font-weight: 600;
+}
+.fw-700{
+    font-weight: 700;
+}
+.fw-800{
+    font-weight: 800;
+}
+.fw-900{
+    font-weight: 900;
+}

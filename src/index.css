@@ -1,0 +1,56 @@
+@font-face {
+    font-family: OpenSans;
+    src: url('./assets/fonts/openSans/openSans.ttf');
+}
+
+@font-face {
+    font-family: SuiGeneris;
+    src: url('./assets/fonts/suiGeneris/suiGeneris.otf');
+}
+
+.bg-img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+.clickable{
+    cursor: pointer;
+}
+
+.hover-rotate{
+  transition: all 1.5s;
+}
+
+.hover-rotate:hover{
+  transform: rotate(360deg);
+}
+
+
+/* scroll bar  */
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #F1E4C5;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #153627;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #375B55;
+  }
