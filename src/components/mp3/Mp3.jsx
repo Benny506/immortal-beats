@@ -63,13 +63,6 @@ export default function Mp3s({ currentBeat, setCurrentBeat, filteredBeats }){
                             No beats found with that search filter. Filter by name or category.
                             Available categories: 
                         </p>
-                        <ul>
-                            <li className="text-center m-0 p-0 txt-14 fw-600 txt-F1E4C5">category one</li>
-                            <li className="text-center m-0 p-0 txt-14 fw-600 txt-F1E4C5">category one</li>
-                            <li className="text-center m-0 p-0 txt-14 fw-600 txt-F1E4C5">category one</li>
-                            <li className="text-center m-0 p-0 txt-14 fw-600 txt-F1E4C5">category one</li>
-                            <li className="text-center m-0 p-0 txt-14 fw-600 txt-F1E4C5">category one</li>
-                        </ul>
                     </div>
             }
         </div>

@@ -8,7 +8,15 @@ import Playing from './components/playing/Playing';
 import { FaInstagram, FaWhatsapp, FaTwitter } from "react-icons/fa";
 import { beats } from './components/db/db';
 
+
+
 const PHONE = '09094379432'
+
+
+
+const categories = ['all', 'In house. Dance hall', 'afro', 'amapiano', 'trap']
+
+
 
 function App() {
 
@@ -16,6 +24,7 @@ function App() {
   const [playing, setPlaying] = useState(true)
   const [filteredBeats, setFilteredBeats] = useState(beats)
   const [searchFilter, setSearchFilter] = useState('')
+  const [activeCategory, setActiveCategory] = useState('all')
 
   const onPauseBeat = () => setPlaying(false)
   const onPlayBeat = () => setPlaying(true)
@@ -28,6 +37,9 @@ function App() {
 
   useEffect(() => {
     if(searchFilter){
+
+      setActiveCategory('all')
+
       const _filtered = beats.filter(beat => (
         beat.title.toLowerCase().includes(searchFilter)
         ||
@@ -47,11 +59,51 @@ function App() {
 
   }, [searchFilter])
 
+  useEffect(() => {
+    if(activeCategory){
+
+      if(activeCategory == 'all'){
+        setFilteredBeats(beats)
+      
+      } else{
+        const filtered = beats.filter(beat => beat.category.toLowerCase() == activeCategory.toLowerCase())
+
+        setFilteredBeats(filtered)
+      }
+
+    } else{
+      setFilteredBeats(beats)
+    }
+  }, [activeCategory])
+
 
   const handleSearchInput = e => setSearchFilter(e.target.value.toLowerCase())
 
 
   const openWhatsapp = () => window.open("https://api.whatsapp.com/send?phone=" + PHONE, "blank")
+
+  
+  const displayCategories = categories.map((category, i) => {
+    
+    const isActive = category.toLowerCase() == activeCategory.toLowerCase()
+
+    const selectCategory = () => setActiveCategory(category.toLowerCase())
+
+    return (
+      <div
+        key={i}
+        onClick={selectCategory}
+        style={{
+          opacity: isActive ? 1 : 0.5
+        }}
+        className='rounded-3 px-3 txt-000 bg-f7f7f7 py-2 clickable text-capitalize d-flex align-items-center justify-content-center'
+      >
+        <p className='m-0 p-0 open-sans fw-600 txt-15'>
+          { category }
+        </p>
+      </div>
+    )
+  })
 
   return (
     <div
@@ -62,7 +114,7 @@ function App() {
       className='bg-img app-container p-lg-5 p-md-3 p-3 d-lg-flex d-md-block d-block align-items-stretch justify-content-between'
     >
       <div className='col-lg-6 col-md-12 col-12 mb-lg-0 mb-md-0 mb-4'>
-        <div className='d-flex align-items-center search-input col-lg-8 rounded-3 px-3 mb-5'>
+        <div className='d-flex align-items-center search-input col-lg-8 rounded-3 px-3 mb-3'>
           <CiSearch size={20} color='#000' className='col-lg-1' />
           <input 
             type='text' 
@@ -71,6 +123,10 @@ function App() {
             value={searchFilter}
             className='h-100 px-2 py-3 col-lg-11'
           />          
+        </div>
+
+        <div style={{ gap: '20px' }} className='d-flex align-items-center flex-wrap mb-5'>
+          { displayCategories }
         </div>
 
         <div className='mp3-container'>
@@ -90,7 +146,7 @@ function App() {
           </div>
         </div>
         <div className='d-flex align-items-center'>
-          <p className='m-0 p-0 txt-15 txt-F1E4C5 openSans fw-600'>Click to chat with me on: </p>
+          <p className='m-0 p-0 txt-15 txt-F1E4C5 openSans fw-600'>Lets chat: </p>
           <FaTwitter size={20} color='#FFF' className='mx-2 clickable hover-rotate' />
           <FaInstagram size={20} color='#FFF' className='mx-2 clickable hover-rotate' />
           <FaWhatsapp onClick={openWhatsapp} size={20} color='#FFF' className='mx-2 clickable hover-rotate' />
