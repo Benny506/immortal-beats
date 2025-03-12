@@ -14,7 +14,7 @@ const PHONE = '09094379432'
 
 
 
-const categories = ['all', 'In house. Dance hall', 'afro', 'amapiano', 'trap']
+const categories = ['all', 'Pop. Dance Hall', 'afro', 'amapiano', 'trap', 'drill', 'films and games', 'rnb']
 
 
 

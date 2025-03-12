@@ -4,180 +4,216 @@ export const allBeats = [
     //in hall && dance hall
     {
         id: 1,
-        title: 'Avalon Ambience',
-        category: 'In house. Dance hall',
-        mp3: 'https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663927/immortal_beat/inhouse_dancehall/Avalon_Ambience_dbvjky.mp3'
+        title: 'Sticky',
+        category: 'Pop. Dance Hall',
+        mp3: 'https://res.cloudinary.com/dqcmfizfd/video/upload/v1741761412/immortal_beat/inhouse_dancehall/Sticky_n7q6ww.mp3'
     },
     {
         id: 2,
-        title: 'Dance now',
-        category: 'In house. Dance hall',
-        mp3: 'https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663928/immortal_beat/inhouse_dancehall/Dance_now_ivgsee.mp3'
+        title: 'Sleep',
+        category: 'Pop. Dance Hall',
+        mp3: 'https://res.cloudinary.com/dqcmfizfd/video/upload/v1741761409/immortal_beat/inhouse_dancehall/Sleep_1_h0jq24.mp3'
     },
     {
         id: 3,
         title: 'Say my name',
-        category: 'In house. Dance hall',
-        mp3: 'https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663928/immortal_beat/inhouse_dancehall/saymyname_s73zkx.mp3'
+        category: 'Pop. Dance Hall',
+        mp3: 'https://res.cloudinary.com/dqcmfizfd/video/upload/v1741761408/immortal_beat/inhouse_dancehall/saymyname_lmqbxc.mp3'
     },
     {
         id: 4,
-        title: 'Undisputed',
-        category: 'In house. Dance hall',
-        mp3: 'https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663927/immortal_beat/inhouse_dancehall/Undisputed_iqbwax.mp3'
+        title: 'Avalon Ambience',
+        category: 'Pop. Dance Hall',
+        mp3: 'https://res.cloudinary.com/dqcmfizfd/video/upload/v1741761407/immortal_beat/inhouse_dancehall/Avalon_Ambience_nzywnu.mp3'
     },
     {
         id: 5,
-        title: 'Tell me something',
-        category: 'In house. Dance hall',
-        mp3: 'https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663922/immortal_beat/inhouse_dancehall/tell_me_something_rjdglv.mp3'
+        title: 'Dont let me know',
+        category: 'Pop. Dance Hall',
+        mp3: 'https://res.cloudinary.com/dqcmfizfd/video/upload/v1741761404/immortal_beat/inhouse_dancehall/Don_t_let_me_know_hnsafv.mp3'
     },
     {
         id: 6,
-        title: 'Hee-hee',
-        category: 'In house. Dance hall',
-        mp3: 'https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663919/immortal_beat/inhouse_dancehall/Hee-hee_cse0ga.mp3'
+        title: 'Work type',
+        category: 'Pop. Dance Hall',
+        mp3: 'https://res.cloudinary.com/dqcmfizfd/video/upload/v1741761402/immortal_beat/inhouse_dancehall/work_type_sbvpm3.mp3'
     },
     {
         id: 7,
-        title: 'Birds do fly',
-        category: 'In house. Dance hall',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663918/immortal_beat/inhouse_dancehall/birds_do_fly_resh7a.mp3"
+        title: 'Dance now',
+        category: 'Pop. Dance Hall',
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741761402/immortal_beat/inhouse_dancehall/Dance_now_mjw6k2.mp3"
     },
+    {
+        id: 84,
+        title: 'Undisputed',
+        category: 'Pop. Dance Hall',
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741761400/immortal_beat/inhouse_dancehall/Undisputed_jyu30x.mp3"
+    },
+    {
+        id: 85,
+        title: 'Dance till we love',
+        category: 'Pop. Dance Hall',
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741761397/immortal_beat/inhouse_dancehall/Dance_till_we_love_1_sxnvt9.mp3"
+    },
+    {
+        id: 86,
+        title: 'Boogie man',
+        category: 'Pop. Dance Hall',
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741761395/immortal_beat/inhouse_dancehall/Boogie_man_c5vq0s.mp3"
+    }, 
+    {
+        id: 87,
+        title: 'Birds do fly',
+        category: 'Pop. Dance Hall',
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741761393/immortal_beat/inhouse_dancehall/birds_do_fly_b99qzc.mp3"
+    },
+    {
+        id: 88,
+        title: 'Such a freak',
+        category: 'Pop. Dance Hall',
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741761392/immortal_beat/inhouse_dancehall/such_a_freak_plntsr.mp3"
+    },
+    {
+        id: 89,
+        title: 'Black bird demo',
+        category: 'Pop. Dance Hall',
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741761392/immortal_beat/inhouse_dancehall/Black_bird_demo_p1shh7.mp3"
+    },                        
 
 
     //afro
     {
         id: 8,
-        title: `Ayra star x Wizkid type beat 'Roses'`,
+        title: `Wurld type beat bonquet`,
         category: 'afro',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663933/immortal_beat/afro/Ayra_star_x_Wizkid_type_beat_Roses_uwv835.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741762293/immortal_beat/afro/Wurld_type_beat_Bonquet_qix3zq.mp3"
     },
     {
         id: 9,
-        title: `Omah lay type beat 'Girl for you'`,
+        title: `Wizkid x MHD type beat musique`,
         category: 'afro',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730664063/immortal_beat/afro/Omah_lay_type_beat_Girl_for_you_kt2exe.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741762286/immortal_beat/afro/Wizkid_x_MHD_Type_beat_Musique_myyej2.mp3"
     },
     {
         id: 10,
-        title: `Omah lay type beat 'Vibration'`,
+        title: `Zlatan x Zinoleesky type beat Zanku`,
         category: 'afro',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730664082/immortal_beat/afro/Omah_lay_type_beat_Vibration_t0q1in.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741762285/immortal_beat/afro/Zlatan_x_Zinoleesky_type_beat_Zanku_jp2so3.mp3"
     },
     {
         id: 11,
-        title: 'Really like me',
+        title: 'Seyi vibes Shaolin type beat',
         category: 'afro',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730664126/immortal_beat/afro/Really_like_me_dhq01a.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741762282/immortal_beat/afro/Seyi_vibes_Shaolin_type_beat_tgrzvl.mp3"
     },
     {
         id: 12,
-        title: `Wurld type beat 'Bonquet'`,
+        title: `Wizxid x Burna boy type beat street life`,
         category: 'afro',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730664166/immortal_beat/afro/Wurld_type_beat_Bonquet_hstmot.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741762274/immortal_beat/afro/Wizkid_x_Burna_boy_type_beat_street_life_q4aip3.mp3"
     },    
     {
         id: 13,
-        title: `Wizkid x Burna boy type beat 'street life'`,
+        title: `Show some love`,
         category: 'afro',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730664157/immortal_beat/afro/Wizkid_x_Burna_boy_type_beat_street_life_qzsaeo.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741762268/immortal_beat/afro/Show_some_love_ayd11h.mp3"
     },
     {
         id: 14,
-        title: `Peace of mind`,
+        title: `Really like me`,
         category: 'afro',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730664129/immortal_beat/afro/Peace_of_mind_o5pgzw.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741762264/immortal_beat/afro/Really_like_me_ymkfx4.mp3"
     },
     {
         id: 15,
-        title: `Wizkid x MHD Type beat 'Musique'`,
+        title: `Sexy heaven`,
         category: 'afro',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730664127/immortal_beat/afro/Wizkid_x_MHD_Type_beat_Musique_goi3to.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741762262/immortal_beat/afro/Saxy_heaven_g13lwg.mp3"
     },
     {
         id: 16,
-        title: `Rema type beat 'Bambi'`,
+        title: `Peace of mind`,
         category: 'afro',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730664118/immortal_beat/afro/Rema_type_beat_Bambi_h8nyyf.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741762249/immortal_beat/afro/Peace_of_mind_ipkdxb.mp3"
     },
     {
         id: 17,
-        title: 'Saxy heaven',
+        title: 'Show me',
         category: 'afro',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730664114/immortal_beat/afro/Saxy_heaven_ax3pwp.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741762248/immortal_beat/afro/show_me_ae72dm.mp3"
     },
     {
         id: 18,
-        title: `Wizkid Skepta type beat 'Tell me baby'`,
+        title: `Rema type beat bambi`,
         category: 'afro',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730664107/immortal_beat/afro/Wizkid_Skepta_type_beat_Tell_me_baby_d6ov5m.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741762230/immortal_beat/afro/Rema_type_beat_Bambi_yzvcws.mp3"
     },
     {
         id: 19,
-        title: 'Night cruise',
+        title: 'Piano man',
         category: 'afro',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730664057/immortal_beat/afro/Night_cruise_gqgmnk.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741762229/immortal_beat/afro/Piano_man_jccmsj.mp3"
     },
     {
         id: 20,
-        title: 'Midnight party',
+        title: 'Omah lay type beat girl for you',
         category: 'afro',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730664056/immortal_beat/afro/Midnight_party_mfwbov.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741762214/immortal_beat/afro/Omah_lay_type_beat_Girl_for_you_qyx7oa.mp3"
     },
     {
         id: 21,
-        title: 'Olosho',
+        title: 'Omah lay type beat vibration',
         category: 'afro',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730664056/immortal_beat/afro/Olosho_jymrm5.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741762204/immortal_beat/afro/Omah_lay_type_beat_Vibration_basqee.mp3"
     },
     {
         id: 22,
-        title: 'Nothing above you',
+        title: 'Midnight party',
         category: 'afro',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730664050/immortal_beat/afro/Nothing_above_you_c0o6dt.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741762200/immortal_beat/afro/Midnight_party_uprf9l.mp3"
     },
     {
         id: 23,
-        title: 'Made up',
+        title: 'Paul and silas 2 instrumental',
         category: 'afro',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730664044/immortal_beat/afro/made_up_yuuvw2.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741762199/immortal_beat/afro/Paul_and_silas2_instrumental_dhhq4y.mp3"
     },
     {
         id: 24,
-        title: 'Love life',
+        title: 'Nothing above you',
         category: 'afro',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730664039/immortal_beat/afro/Love_life_fwh5z2.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741762196/immortal_beat/afro/Nothing_above_you_jacumc.mp3"
     },
     {
         id: 25,
-        title: 'Love me',
+        title: 'On the floor',
         category: 'afro',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730664033/immortal_beat/afro/Love_me_kie35z.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741762192/immortal_beat/afro/On_the_floor_ce1h0j.mp3"
     },
     {
         id: 26,
-        title: `Joeboy x Fireboy type beat 'don't break my heart`,
+        title: `Olosho`,
         category: 'afro',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730664019/immortal_beat/afro/Joeboy_x_Fireboy_type_beat_dont_break_my_heart_ye4x8s.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741762175/immortal_beat/afro/Olosho_zjnkry.mp3"
     },
     {
         id: 27,
-        title: 'In tune',
+        title: 'Night cruise',
         category: 'afro',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730664000/immortal_beat/afro/In_tune_yajwyh.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741762168/immortal_beat/afro/Night_cruise_nzyj92.mp3"
     },
     {
         id: 28,
-        title: `Joro type vk3`,
+        title: `Mood swing`,
         category: 'afro',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663981/immortal_beat/afro/joro_type_vk3_qrondm.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741762165/immortal_beat/afro/Mood_Swing_fe84uc.mp3"
     },
     {
         id: 29,
-        title: 'Ginger',
+        title: 'Move',
         category: 'afro',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663975/immortal_beat/afro/Ginger_oszvsd.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741762156/immortal_beat/afro/Move_sme2k7.mp3"
     },
     {
         id: 30,
@@ -187,40 +223,82 @@ export const allBeats = [
     },
     {
         id: 31,
-        title: `Fireboy type beat 'Sunshine'`,
+        title: `No gree`,
         category: 'afro',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663966/immortal_beat/afro/Fireboy_type_beat_Sunshine_es6uyv.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741762139/immortal_beat/afro/No_gree_hafbjw.mp3"
     },
     {
         id: 32,
-        title: `Fireboy type beat 'piano_man'`,
+        title: `Made up`,
         category: 'afro',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663944/immortal_beat/afro/Fireboy_type_beat_piano_man_lh0ugo.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741762131/immortal_beat/afro/made_up_zqs4f6.mp3"
     },
     {
         id: 33,
-        title: 'Feel the same',
+        title: 'For krizz',
         category: 'afro',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663942/immortal_beat/afro/feel_the_same_uiiqj8.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741762130/immortal_beat/afro/for_krizz_o4azth.mp3"
     },
     {
         id: 34,
-        title: 'Bonjour',
+        title: 'For comfort',
         category: 'afro',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663940/immortal_beat/afro/Bonjour_oebg5p.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741762122/immortal_beat/afro/For_comfort_lozgi6.mp3"
     },
     {
         id: 35,
-        title: 'Casio',
+        title: 'Go with the flow',
         category: 'afro',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663937/immortal_beat/afro/Casio_cepek7.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741762118/immortal_beat/afro/go_with_the_flow_so3uee.mp3"
     },
     {
         id: 36,
-        title: 'Control',
+        title: 'Ginger',
         category: 'afro',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663936/immortal_beat/afro/Control_jphc9a.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741762124/immortal_beat/afro/Ginger_nywq5i.mp3"
     },
+    {
+        id: 90,
+        title: 'Joeboy x Fireboy type beat dont break my heart',
+        category: 'afro',
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741762109/immortal_beat/afro/Joeboy_x_Fireboy_type_beat_don_t_break_my_heart_rvdqj3.mp3"
+    },
+    {
+        id: 91,
+        title: 'Burna boy x J Hus XX',
+        category: 'afro',
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741762088/immortal_beat/afro/Burna_boy_x_J_hus_xx_i2t5zr.mp3"
+    }, 
+    {
+        id: 92,
+        title: 'Fireboy type beat sunshine',
+        category: 'afro',
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741762070/immortal_beat/afro/Fireboy_type_beat_Sunshine_nz2tmy.mp3"
+    },
+    {
+        id: 93,
+        title: 'Casio',
+        category: 'afro',
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741762072/immortal_beat/afro/Casio_qr34wi.mp3"
+    },
+    {
+        id: 94,
+        title: 'Feel the same',
+        category: 'afro',
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741762072/immortal_beat/afro/Feel_the_same_gzehg0.mp3"
+    },
+    {
+        id: 95,
+        title: 'Boogie man',
+        category: 'afro',
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741762051/immortal_beat/afro/Boogie_man_napshj.mp3"
+    },
+    {
+        id: 96,
+        title: 'Ayra star x Wizkid type beat roses',
+        category: 'afro',
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741762032/immortal_beat/afro/Ayra_star_x_Wizkid_type_beat_Roses_rpg7mg.mp3"
+    },                            
     // {   SOLD!
     //     id: 37,
     //     title: 'Anger Issues',
@@ -229,78 +307,81 @@ export const allBeats = [
     // },
 
 
+
+
+
     //trap
     {
         id: 38,
-        title: `Travis scott x Future x Metro boomin Type beat Type piece`,
+        title: `Young thug type beat twin `,
         category: 'trap',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663906/immortal_beat/trap/Travis_scott_x_Future_x_Metro_boomin_Type_beat_Type_piece_z6jrri.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741763442/immortal_beat/trap/Young_thug_type_beat_Twin_vhohwa.mp3"
     },
     {
         id: 39,
-        title: `Travis Scott x Don toliver type beat 'can't say'`,
+        title: `West coast`,
         category: 'trap',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663891/immortal_beat/trap/Travis_Scott_x_Don_toliver_type_beat_cant_say_fj3p7k.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741763438/immortal_beat/trap/West_coast_1_xabybs.mp3"
     },
     {
         id: 40,
-        title: 'Timeless',
+        title: 'Travis scott x Future x Metro boomin type beat type piece',
         category: 'trap',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663891/immortal_beat/trap/Timeless_ao2qdd.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741763437/immortal_beat/trap/Travis_scott_x_Future_x_Metro_boomin_Type_beat_Type_piece_sagj4y.mp3"
     },
     {
         id: 41,
-        title: `Playboi carti x Lil uzi type beat 'Still driftin'`,
+        title: `Travis scott x Don toliver type beat cant say`,
         category: 'trap',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663890/immortal_beat/trap/Playboi_carti_x_Lil_uzi_type_beat_Still_driftin_cnecrv.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741763435/immortal_beat/trap/Travis_Scott_x_Don_toliver_type_beat_cant_say_cikhez.mp3"
     },
     {
         id: 42,
-        title: `Playboi carti x Kanye west type beat 'Ketamine Vulture'`,
+        title: `Travis scott type beat fishing boat`,
         category: 'trap',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663881/immortal_beat/trap/Playboi_carti_x_Kanye_west_type_beat_Ketamine_Vulture_kiba60.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741763433/immortal_beat/trap/Travis_scott_type_beat_fishing_boat_vs7poh.mp3"
     },
     {
         id: 43,
-        title: `Travis scott type beat 'fishing boat'`,
+        title: `Timeless`,
         category: 'trap',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663873/immortal_beat/trap/Travis_scott_type_beat_fishing_boat_gyhk9s.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741763430/immortal_beat/trap/Timeless_xzhxkq.mp3"
     },
     {
         id: 44,
-        title: 'Not okay',
+        title: 'Thompson jr',
         category: 'trap',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663872/immortal_beat/trap/Not_okay_nftckl.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741763429/immortal_beat/trap/thompson_Jr_m43ymt.mp3"
     },
     {
         id: 45,
-        title: `Playboi carti type beat 'Quater back'`,
+        title: `Rainy days piano`,
         category: 'trap',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663865/immortal_beat/trap/Playboi_carti_type_beat_Quater_back_a9jxuh.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741763429/immortal_beat/trap/Rainy_days_piano_de1hyq.mp3"
     },
     {
         id: 46,
-        title: `Jack Harlow x Chris brown type beat 'I need you'`,
+        title: `Travis scott type beat - dystopia`,
         category: 'trap',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663861/immortal_beat/trap/Jack_Harlow_x_Chris_brown_type_beat_I_need_you_ltar5l.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741763427/immortal_beat/trap/Travis_scott_type_beat_-_dystopia_b3uqk6.mp3"
     },
     {
         id: 47,
-        title: `Kendrick lamar x baby keem 'Not too late'`,
+        title: `Skepta`,
         category: 'trap',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663860/immortal_beat/trap/Kendrick_lamar_x_baby_keem_Not_too_late_sniemo.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741763428/immortal_beat/trap/Skepta_vhkupr.mp3"
     },
     {
         id: 48,
-        title: `Lil Durk x King Von type beat 'Double tap'`,
+        title: `Murder`,
         category: 'trap',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663858/immortal_beat/trap/Lil_Durk_x_King_Von_type_beat_Double_tap_fgqzjb.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741763427/immortal_beat/trap/murder_dxwoa1.mp3"
     },
     {
         id: 49,
-        title: 'Jazzy bap',
+        title: 'Not too late to love',
         category: 'trap',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663857/immortal_beat/trap/Jazzy_bap_suibho.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741763421/immortal_beat/trap/Not_too_late_to_love_npx6t8.mp3"
     },
     {
         id: 50,
@@ -316,9 +397,9 @@ export const allBeats = [
     },
     {
         id: 52,
-        title: `Gunna type beat 'idk that bitch'`,
+        title: `Glo_rilla x Megan thee stallion type beat good goodly moogly`,
         category: 'trap',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663840/immortal_beat/trap/Gunna_type_beat_idk_that_bitch_xpts8i.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741763421/immortal_beat/trap/Glo_rilla_x_Megan_thee_stallion_type_beat_good_goodly_moogly_golzkk.mp3"
     },
     {
         id: 53,
@@ -328,187 +409,292 @@ export const allBeats = [
     },
     {
         id: 54,
-        title: `Future x Metro boomin type beat 'Never trusted you'`,
+        title: `Ketamine`,
         category: 'trap',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663834/immortal_beat/trap/Future_x_Metro_boomin_type_beat_Never_trusted_you_qjj8cd.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741763420/immortal_beat/trap/ketamine_vv8nxq.mp3"
     },
     {
         id: 55,
-        title: 'Get lit like me',
+        title: 'Keep you warm',
         category: 'trap',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663833/immortal_beat/trap/Get_lit_like_me_hnxf8n.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741763417/immortal_beat/trap/Keep_you_warm_dzc94s.mp3"
     },
     {
         id: 56,
-        title: `Future type beat 'Too wick'`,
+        title: `Lil durk x Rod wave type beat`,
         category: 'trap',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663828/immortal_beat/trap/Future_type_beat_Too_wick_ycwyjy.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741763417/immortal_beat/trap/Lil_durk_x_Rod_wave_type_beat_jkqbcb.mp3"
     },
     {
         id: 57,
-        title: `Future x Metro type beat`,
+        title: `Lil durk x King Von type beat double tap`,
         category: 'trap',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663821/immortal_beat/trap/Future_x_Metro_type_beat_ygzfxf.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741763416/immortal_beat/trap/Lil_Durk_x_King_Von_type_beat_Double_tap_lqtr6j.mp3"
     },
     {
         id: 58,
-        title: 'Focus vibey beat',
+        title: 'Jazzy bap',
         category: 'trap',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663814/immortal_beat/trap/Focus_vibey_beat_v2awyn.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741763414/immortal_beat/trap/Jazzy_bap_tdj2uz.mp3"
     },
     {
         id: 59,
-        title: `Future type beat 'messy'`,
+        title: `Evil jordan`,
         category: 'trap',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663818/immortal_beat/trap/Future_type_beat_messy_dpiknq.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741763413/immortal_beat/trap/evil_jordan_rjmgiy.mp3"
     },
     {
         id: 60,
-        title: `Drake x Sza type beat 'freezing cold'`,
+        title: `Juice wrld x Don toliver type beat Retro shi`,
         category: 'trap',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663811/immortal_beat/trap/Drake_x_Sza_type_beat_freezing_cold_dhc8g3.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741763412/immortal_beat/trap/Juice_Wrld_x_Don_toliver_type_beat_Retro_shi_cyc7pf.mp3"
     },
     {
         id: 61,
-        title: `Future x EST gee type beat 'represent'`,
+        title: `Future x Metro type beat`,
         category: 'trap',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663810/immortal_beat/trap/Future_x_EST_gee_type_beat_represent_ag8rvm.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741763411/immortal_beat/trap/Future_x_Metro_type_beat_yi5bu9.mp3"
     },
     {
         id: 62,
-        title: `Finding your way`,
+        title: `Jack`,
         category: 'trap',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663810/immortal_beat/trap/finding_your_way_aa6xfg.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741763408/immortal_beat/trap/jack_ulubn3.mp3"
     },
     {
         id: 63,
-        title: `Drake x 21 savage type beat 'more_'`,
+        title: `Glass of wine`,
         category: 'trap',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663806/immortal_beat/trap/Drake_x_21_savage_type_beat_more_ps_y1xbr1.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741763408/immortal_beat/trap/glass_of_wine_iij7fi.mp3"
     },
     {
         id: 64,
-        title: 'Beanie_b',
+        title: 'Ahhh ha',
         category: 'trap',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663806/immortal_beat/trap/Beanie_b6bvur.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741763404/immortal_beat/trap/ahhh_ha_mrvog6.mp3"
     },
     {
         id: 65,
-        title: `Drake type beat 'on my mind'`,
+        title: `Jach Harlow x Chris Brown type beat I need you`,
         category: 'trap',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663805/immortal_beat/trap/Drake_type_beat_on_my_mind_tr07by.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741763400/immortal_beat/trap/Jack_Harlow_x_Chris_brown_type_beat_I_need_you_gfshjz.mp3"
     },
     {
         id: 66,
-        title: 'By my side',
+        title: 'Focus sample',
         category: 'trap',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663803/immortal_beat/trap/By_my_side_mxm8wz.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741763402/immortal_beat/trap/Focus_sample_zbeob8.mp3"
     },
     {
         id: 67,
-        title: `Drake type beat 'Bad times'`,
+        title: `Hear no evil`,
         category: 'trap',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663798/immortal_beat/trap/Drake_type_beat_Bad_times_qhbgq2.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741763400/immortal_beat/trap/Hear_no_evil_un1nlz.mp3"
     },
     {
         id: 68,
-        title: `Doja cat x Metro boomin type beat 'Agoura hills'`,
+        title: `Gunna 6am type beat`,
         category: 'trap',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663794/immortal_beat/trap/Doja_cat_x_Metro_boomin_type_beat_Agoura_hills_nd4cgf.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741763399/immortal_beat/trap/Gunna_6am_type_beat_zhfbpy.mp3"
     },
     {
         id: 69,
-        title: 'Deep thoughts',
+        title: 'Gr8ness',
         category: 'trap',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663793/immortal_beat/trap/Deep_thoughts_pl5ooc.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741763399/immortal_beat/trap/gr8ness_aw8gtm.mp3"
     },
     {
         id: 70,
-        title: `Drake type beat '3am in dreamville'`,
+        title: `Gold piece`,
         category: 'trap',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663792/immortal_beat/trap/Drake_type_beat_3am_in_dreamville_m7adwc.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741763398/immortal_beat/trap/Gold_piece_rua99o.mp3"
     },
     {
         id: 71,
-        title: `21 savage type beat 'murder'`,
+        title: `Hours`,
         category: 'trap',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663791/immortal_beat/trap/21_savage_type_beat_murder_wjzzje.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741763394/immortal_beat/trap/hours_ahjbad.mp3"
     },
+
+
+
 
 
     //amapiano
     {
         id: 72,
-        title: `Shalipopi type beat 'look well'`,
+        title: `Sarz x Asake type beat new`,
         category: 'amapiano',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663780/immortal_beat/amapiano/Shalipopi_type_beat_look_well_x8ngm8.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741764410/immortal_beat/amapiano/Sarz_x_Asake_type_beat_New_dpzxu9.mp3"
     },
     {
         id: 73,
-        title: 'Soft boy',
+        title: 'Vibe amapiano',
         category: 'amapiano',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663773/immortal_beat/amapiano/Soft_boy_dpuv6p.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741764406/immortal_beat/amapiano/Vibe_amapiano_hcklfs.mp3"
     },
     {
         id: 74,
-        title: 'Olulufe',
+        title: 'Shalipopi type beat look well',
         category: 'amapiano',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663771/immortal_beat/amapiano/Ololufe_vxiobg.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741764405/immortal_beat/amapiano/Shalipopi_type_beat_look_well_gvfowh.mp3"
     },
     {
         id: 75,
         title: 'Zulu',
         category: 'amapiano',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663770/immortal_beat/amapiano/Zulu_smooco.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741764405/immortal_beat/amapiano/Zulu_wqxsmh.mp3"
     },
     {
         id: 76,
-        title: 'Vibe amapiano',
+        title: 'Na so',
         category: 'amapiano',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663769/immortal_beat/amapiano/Vibe_amapiano_uhdvg1.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741764403/immortal_beat/amapiano/na_so_lzbuic.mp3"
     },
     {
         id: 77,
-        title: 'No disturb',
+        title: 'Soft boyy',
         category: 'amapiano',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663763/immortal_beat/amapiano/no_disturb_svhvob.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741764400/immortal_beat/amapiano/Soft_boyy_nxezp1.mp3"
     },
     {
         id: 78,
-        title: `Burna boy x Davido 'Second plate'`,
+        title: `Amapiano beat Shay Imoto`,
         category: 'amapiano',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663761/immortal_beat/amapiano/Burna_boy_x_Davido_Second_plate_yosjua.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741764399/immortal_beat/amapiano/Amapiano_beat_Shay_imoto_lh1viz.mp3"
     },
     {
         id: 79,
-        title: `Davido x MusaKeys type beat 'Jungle fever'`,
+        title: `No disturb`,
         category: 'amapiano',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663761/immortal_beat/amapiano/Davido_x_Musa_Keys_type_beat_Jungle_fever_rl1mis.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741764398/immortal_beat/amapiano/no_distiurb_yrl66r.mp3"
     },
     {
         id: 80,
-        title: `Asake type beat 'Here i come'`,
+        title: `Maye`,
         category: 'amapiano',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663759/immortal_beat/amapiano/Asake_type_beat_Here_i_come_i86o9t.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741764393/immortal_beat/amapiano/Maye_uotkrc.mp3"
     },
     {
         id: 81,
-        title: `Ama afro type beat`,
+        title: `Shalipopi synth amapiano beat`,
         category: 'amapiano',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663757/immortal_beat/amapiano/ama-afro_type_beat_gxl1qg.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741764398/immortal_beat/amapiano/Shalipopi_synth_amapiano_beat_ldmwdm.mp3"
     },
     {
         id: 82,
-        title: 'Chilly amapiano',
+        title: 'Ololufe',
         category: 'amapiano',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663754/immortal_beat/amapiano/Chilly_amapiano_mjnliy.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741764393/immortal_beat/amapiano/Ololufe_xesocj.mp3"
     },
     {
         id: 83,
-        title: 'Lazers',
+        title: 'Ama afro type beat',
         category: 'amapiano',
-        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1730663753/immortal_beat/amapiano/lazers_auiaar.mp3"
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741764392/immortal_beat/amapiano/ama-afro_type_beat_vbtrgl.mp3"
     },
+    {
+        id: 97,
+        title: 'Jungle fever',
+        category: 'amapiano',
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741764389/immortal_beat/amapiano/jungle_fever_olcjb4.mp3"
+    },
+    {
+        id: 98,
+        title: 'Burna box x Davido Second plate',
+        category: 'amapiano',
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741764386/immortal_beat/amapiano/Burna_boy_x_Davido_Second_plate_vllokt.mp3"
+    }, 
+    {
+        id: 99,
+        title: 'Amapiano beat gimme sum',
+        category: 'amapiano',
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741764386/immortal_beat/amapiano/Amapiano_beat_Gimme_sum_npaeyn.mp3"
+    },
+    {
+        id: 100,
+        title: 'Dey hear word',
+        category: 'amapiano',
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741764385/immortal_beat/amapiano/Dey_hear_word_onzyp8.mp3"
+    },
+    {
+        id: 101,
+        title: 'Hereb',
+        category: 'amapiano',
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741764385/immortal_beat/amapiano/hereb_awo3pe.mp3"
+    },
+    {
+        id: 102,
+        title: 'Here I come',
+        category: 'amapiano',
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741764383/immortal_beat/amapiano/Here_i_come_evdz9q.mp3"
+    },
+    {
+        id: 103,
+        title: 'Come to my kian',
+        category: 'amapiano',
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741764379/immortal_beat/amapiano/come_to_my_kian_lf5662.mp3"
+    },  
+    
+
+    
+
+
+    //drill
+    {
+        id: 104,
+        title: 'Drill top boy',
+        category: 'drill',
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741764911/immortal_beat/drill/Drill_Top_boy_e6icks.mp3"
+    }, 
+
+
+
+
+
+    //films and games
+    {
+        id: 105,
+        title: 'Humming man',
+        category: 'films and games',
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741765043/immortal_beat/films%20and%20games/humming_man_b2k6nd.mp3"
+    },
+    {
+        id: 106,
+        title: 'New dawn',
+        category: 'films and games',
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741765038/immortal_beat/films%20and%20games/new_dawn_qgdn0y.mp3"
+    },
+    {
+        id: 107,
+        title: 'Video game',
+        category: 'films and games',
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741765036/immortal_beat/films%20and%20games/video_game_shbmom.mp3"
+    },
+    {
+        id: 108,
+        title: 'Dash dealer',
+        category: 'films and games',
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741765035/immortal_beat/films%20and%20games/Deah_dealer_1_tpo1wm.mp3"
+    },
+    {
+        id: 109,
+        title: 'Good heavens',
+        category: 'films and games',
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741765034/immortal_beat/films%20and%20games/good_heavens_ib3bua.mp3"
+    }, 
+    
+
+    
+
+
+    // rnb
+    {
+        id: 110,
+        title: 'Mariah',
+        category: 'rnb',
+        mp3: "https://res.cloudinary.com/dqcmfizfd/video/upload/v1741765480/immortal_beat/rnb/Mariah_x6tfye.mp3"
+    },    
 ]
 
 export const beats = shuffleArr({ arr: allBeats })
